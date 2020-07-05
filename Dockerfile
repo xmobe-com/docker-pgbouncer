@@ -1,7 +1,7 @@
 FROM            buildpack-deps:bionic-curl
 MAINTAINER      Inonit AS <support@inonit.no>
 
-ENV             PGBOUNCER_VERSION 1.13.0
+ENV             PGBOUNCER_VERSION 1.14.0
 ENV             PGBOUNCER_TAR_URL http://www.pgbouncer.org/downloads/files/${PGBOUNCER_VERSION}/pgbouncer-${PGBOUNCER_VERSION}.tar.gz
 ENV             PGBOUNCER_SHA_URL ${PGBOUNCER_TAR_URL}.sha256
 
